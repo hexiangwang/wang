@@ -3,13 +3,3 @@
 ################################################################################
 
 /APPHost/.vs
-/APPHost/APPHost/bin
-/APPHost/APPHost/obj
-/APPHost/AppHostApi/bin
-/APPHost/AppHostApi/obj
-/APPHost/PLC.ModBus.Rtu.Driver/bin
-/APPHost/PLC.ModBus.Rtu.Driver/obj
-/APPHost/APPHost/Properties/PublishProfiles
-/APPHost/APPHost/APPHost.csproj.user
-/APPHost/AppHostApi/Properties
-/APPHost/AppHostApi/AppHostApi.csproj.user
