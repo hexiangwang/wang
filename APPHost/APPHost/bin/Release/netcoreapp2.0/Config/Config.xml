@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PLCDrivers>
+  <PLCDriver id="1" salve="1" ipAddress="127.0.0.1" port="502" sendInterval ="10"/>
+</PLCDrivers>
