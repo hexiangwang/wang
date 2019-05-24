@@ -11,9 +11,15 @@ public class HelloService {
     @Autowired
     RestTemplate restTemplate;
 
-    @HystrixCommand(fallbackMethod = "hiError")
+    //@HystrixCommand(fallbackMethod = "hiError")
     public String hiService(String name) {
-        return restTemplate.getForObject("http://SERVICE-HI/hi?name=" + name, String.class);
+//        try {
+//            Thread.sleep(60001);
+//        }catch (Exception ex){
+//            System.out.println(ex.getMessage());
+//        }
+        String re= restTemplate.getForObject("http://SERVICE-HI/hi?name=" + name, String.class);
+        return re;
     }
 
     public String hiError(String name) {

@@ -4,13 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.forezp</groupId>
-    <artifactId>service-ribbon</artifactId>
+    <artifactId>config-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>service-ribbon</name>
+    <name>config-server</name>
     <description>Demo project for Spring Boot</description>
-
 
     <parent>
         <groupId>com.forezp</groupId>
@@ -20,27 +19,17 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-        </dependency>
-        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
-        <!--eureka-client集成了ribbon-->
-        <!--<dependency>-->
-            <!--<groupId>org.springframework.cloud</groupId>-->
-            <!--<artifactId>spring-cloud-starter-netflix-ribbon</artifactId>-->
-        <!--</dependency>-->
-
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+            <artifactId>spring-cloud-config-server</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
     </dependencies>
-
-
 
 </project>
