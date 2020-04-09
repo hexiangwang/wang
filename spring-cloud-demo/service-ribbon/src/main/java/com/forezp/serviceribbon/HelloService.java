@@ -11,7 +11,7 @@ public class HelloService {
     @Autowired
     RestTemplate restTemplate;
 
-    //@HystrixCommand(fallbackMethod = "hiError")
+    @HystrixCommand(fallbackMethod = "hiError")
     public String hiService(String name) {
 //        try {
 //            Thread.sleep(60001);

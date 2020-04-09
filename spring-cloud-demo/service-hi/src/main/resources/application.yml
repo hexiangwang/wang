@@ -7,8 +7,6 @@ spring:
 server:
   port: 8762
 
-
-
 eureka:
   client:
     serviceUrl:

@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HiController {
     @Autowired
-    SchedualServiceHi schedualServiceHi;
+    SchedualeServiceHi schedualeServiceHi;
 
     @GetMapping(value = "/hi")
     public String sayHi(@RequestParam String name) {
-        return schedualServiceHi.sayHiFromClientOne( name );
+        return schedualeServiceHi.sayHiFromClientOne( name );
     }
 }

@@ -18,3 +18,5 @@ management:
       cors:
         allowed-origins: "*"
         allowed-methods: "*"
+
+

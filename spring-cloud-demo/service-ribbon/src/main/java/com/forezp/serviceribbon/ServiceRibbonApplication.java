@@ -10,9 +10,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
-@EnableEurekaClient
+//@EnableEurekaClient
 //@EnableDiscoveryClient //不知道起什么作用，感觉不要也行
-//@EnableHystrix
+@EnableHystrix
 public class ServiceRibbonApplication {
 
     public static void main(String[] args) {
